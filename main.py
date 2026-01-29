@@ -6,28 +6,16 @@
 print("Welcome to the Decision Quiz!")
 print("-----------------------------")
 
-# TODO 1: Print your quiz question
-# Example: print("What is 2 + 2?")
-print("ENTER YOUR QUIZ QUESTION HERE")
-
-# TODO 2: Ask the user for their answer
-# Convert to int() only if you are comparing numbers
-answer = input("Enter your answer: ")
-
-# TODO 3: Create at least THREE possible outcomes using:
-# - if
-# - elif
-# - else
-#
-# Each outcome should print a different message
-# Example ideas:
-# - Correct answer
-# - Close answer
-# - Incorrect answer
-
-# Write your decision logic below
+print("What is the fastest speed, in mph, an F1 car has reached?")
 
 
+if answer == "231.4"
+  print("You're correct! It was set by Valtteri Bottas in a Williams.")
+        
+elif answer == "164.47"
+  print("You're incorrect. This was Max's fastest average speed for a lap in the Monza Grand Prix!")
 
+else answer = "Sauber" 
+  print("You may or may not be slow! This is NOT a speed.")
 # TODO 4: Print a closing message
 print("Thanks for taking the quiz!")
