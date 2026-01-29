@@ -7,7 +7,7 @@ print("Welcome to the Decision Quiz!")
 print("-----------------------------")
 
 print("What is the fastest speed, in mph, an F1 car has reached?")
-answer = input("Enter your answer: "
+answer = input("Enter your answer: ")
 
 if answer == "231.4":
   print("You're correct! It was set by Valtteri Bottas in a Williams.")
